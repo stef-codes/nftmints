@@ -1,4 +1,4 @@
-# nftmints
+# NFT Mints
 get mints using alchemy
 
 ## Run Code
