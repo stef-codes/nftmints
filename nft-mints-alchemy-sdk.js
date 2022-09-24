@@ -2,13 +2,13 @@
 import { Alchemy, Network } from "alchemy-sdk";
 
 const config = {
-  apiKey: "<-- ALCHEMY APP API KEY -->",
+  apiKey: "M75edmKG39L2nnSm3MHuBUYpB4gJ3VYv",
   network: Network.ETH_MAINNET,
 };
 const alchemy = new Alchemy(config);
 
-// Address we want get NFT mints from
-const toAddress = "0x5c43B1eD97e52d009611D89b74fA829FE4ac56b1";
+// Address we want get NFT mints from nikilster.eth
+const toAddress = "0x1E6E8695FAb3Eb382534915eA8d7Cc1D1994B152";
 
 const res = await alchemy.core.getAssetTransfers({
   fromBlock: "0x0",
